@@ -1,5 +1,18 @@
 @media (max-width:700px) 
 { 
+
+    /* .burger { 
+        position:absolute;
+        right: 1%;
+        top: 1%;
+        width: 50px;
+        height: 50px;
+    } */
+
+    #contact-me { 
+        display: none;
+    }
+
     .header-logo { 
         display: none;
     }
@@ -7,6 +20,7 @@
         margin: auto;
         left: 0;
         right: 0;
+        width: 100%;
     }
 
     .info-content { 
@@ -48,8 +62,7 @@
 
 
     .mywork-content-m { 
-        padding-top:50%;
-        padding-bottom: 50%;
+        padding: 20% 0;
         font-size: 1.6rem;
     }
 
@@ -58,6 +71,11 @@
         text-align: center;
         font-family: 'Source Code Pro', monospace;
         font-weight: 400;
+    }
+
+    .item-m { 
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
 
@@ -114,6 +132,10 @@
         color: white;
         text-align: center;
     }
+/* 
+    .hamburger { 
+        display: none;
+    } */
 }
     
 
