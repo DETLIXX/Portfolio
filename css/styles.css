@@ -1,3 +1,123 @@
+@media (max-width:700px) 
+{ 
+    .header-logo { 
+        display: none;
+    }
+    .header-links { 
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .info-content { 
+        margin: 0 0 50% 0;
+    }
+
+    .info-content p { 
+        font-size: 1.7rem;
+        text-align: left;
+        width: 100%;
+        padding: 0 10%;
+        padding-top: 40%;
+    }
+
+    .aboutme-content { 
+        padding: 0 0;
+        padding-bottom: 0;
+    }
+
+
+    .aboutme-content p { 
+        font-size: 1.9rem;
+    }
+
+    /* My Work Mobile */
+
+    .mywork-content { 
+        display: none;
+    }
+
+
+    /* .mywork-content-m { 
+    padding: 15% 5%;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    height: 200px;
+    } */
+
+
+    .mywork-content-m { 
+        padding-top:50%;
+        padding-bottom: 50%;
+        font-size: 1.6rem;
+    }
+
+    .mywork-content-m h1 { 
+        color: white;
+        text-align: center;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 400;
+    }
+
+
+    .item-m h1 {
+        color: #ffb1cd;
+        text-align: center;
+        margin-bottom: 4%;
+        font-size: 2rem;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 400;
+    }
+    .item-m p { 
+        color: gray;
+        font-size: 1rem;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        font-family: 'Source Code Pro', monospace;
+        font-weight: 200;
+    }
+
+
+    .projects-content { 
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .projects-content h1 { 
+        font-size: 2rem;
+    }
+    .projects-content p { 
+        font-size: 1.5rem;        
+    }
+
+    .footer-content { 
+        color: gray;
+        display: inline;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (min-width:700px) {
+
+    .mywork-content-m  { 
+        display: none;
+    }
+
+    .projects-content { 
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+}
+    
+
+
 body { 
     background-color: black;
     margin: 0;
@@ -47,7 +167,6 @@ a {
 
 .header-content  { 
     width: 100%;
-    height: 4rem;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -92,8 +211,6 @@ a {
     position: fixed;
     right: 2%;
     background-color: rgba(0, 0, 0, 0.9);
-    border-top: 1px solid white;
-    border-right: 1px solid white;
 }
 
 .links-in { 
@@ -119,18 +236,16 @@ a {
 /* Info Section */
 
 #info { 
+    padding: 15% 5%;
     width: 100%;
-    height: 400px;
 }
 
 .info-content  { 
-    height: 10rem;
     width: 50%;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     font-size: 2.3rem;
     text-align: left;
-    padding: 10% 5%;
     color: white;
 }
 
@@ -138,10 +253,8 @@ a {
 /* About Me */
 
 #about-me { 
-    margin: 30% 5% 0 5%;
-    padding-top: 15%;
+    padding: 15% 5%;
     background-color: black;
-    height: 300px;
 }
 
 #about-me h1 {
@@ -156,36 +269,43 @@ a {
     color: white;
 }
 
-.test { 
-    height: 800px;
-}
 
 /* My Work */
 
 .mywork-content { 
-    height: 770px;
-    margin: 15% 5%;
+    padding: 15% 5%;
     font-size: 2rem;
     color: white;
 }
 
-.item { 
-    padding-top: 10% ;
-    text-align: center;
-}
 
 .item h1 { 
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
+    text-align: left;
+    margin-bottom: 2%;
+    font-size: 70px;
 }
 
 .item p { 
+    margin-top: 1rem;
     font-family: 'Source Code Pro', monospace;
     font-weight: 200;
+    font-size: 30px;
+    text-align: left;
 }
 
+
 .work-img { 
-    margin-top: 5%;
+    width: 700px;
+    float: left;
+    margin-right: 3%;
+    transition: 0.2s;
+    border-radius: 1%;
+}
+
+.work-img:hover { 
+    transform: scale(1.05);
 }
 
 
@@ -193,8 +313,7 @@ a {
 
 #projects { 
     height: 300px;
-    padding: 0 0;
-    margin: 20% 5% 0 5%;
+    padding: 20% 5%;
 }
 
 .projects-content { 
