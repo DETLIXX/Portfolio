@@ -4,7 +4,6 @@ body {
 
     -ms-overflow-style: none;
     scrollbar-width: none;
-
 }
 
 html { 
@@ -92,6 +91,9 @@ a {
 .header-links { 
     position: fixed;
     right: 2%;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 1px solid white;
+    border-right: 1px solid white;
 }
 
 .links-in { 
