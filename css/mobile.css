@@ -1,0 +1,51 @@
+body { 
+    background-color: black;
+    overflow: hidden;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.content { 
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons { 
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin: 2% 0;
+}
+
+.buttons a { 
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+
+h1 { 
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+p { 
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+
+.buttons:hover {
+    background-color: rgb(91, 170, 255);
+    border: 3px solid white;
+}
+
