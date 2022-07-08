@@ -15,20 +15,22 @@
 
       gtag("config", "G-XXLW4KQ41V");
     </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
+    <!-- Meta -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Matus</title>
 
+    <!-- Links -->
     <link rel="stylesheet" href="css/styles.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- <div class="hamburger">
@@ -37,7 +39,7 @@
 
     <!-- Header -->
     <section id="header">
-      <div class="header-content">
+      <div class="header-content" data-aos="fade-right">
         <h1 class="header-logo">
           <a class="github" href="https://github.com/DETLIXX" target="_blank"
             ><span>Matus</span></a
@@ -48,7 +50,7 @@
           <a class="links" href="#about-me">About me</a>
           <a class="links" href="#my-work">My Work</a>
           <a class="links" href="#projects">Projects</a>
-          <a id="contact-me" class="links" href="#">Contact me</a>
+          <a id="contact-me" class="links" href="contact.html">Contact me</a>
         </div>
       </div>
     </section>
@@ -56,7 +58,7 @@
     <!-- Head Info -->
 
     <section id="info">
-      <div class="info-content">
+      <div class="info-content" data-aos="fade-up">
         <p>
           Welcome, this is my Personal/Portfolio Site. You can find here almost
           everything <a class="links-in" href="#about-me">About me</a>, and
@@ -70,17 +72,17 @@
     <!-- About Me -->
 
     <section id="about-me">
-      <div class="aboutme-content">
+      <div class="aboutme-content" data-aos="fade-right">
         <h1>About Me</h1>
         <p>
-          So hello again, i am Matus, already 20yo guy from
+          So hello again, I am Matus, already 20yo guy from
           <a
             class="abtme-sk"
             href="https://www.google.com/maps/place/Slovensko/@48.5852595,15.2127885,6z/data=!3m1!4b1!4m5!3m4!1s0x471460b9ae7cc67f:0xcd6b6167b1723a7d!8m2!3d48.669026!4d19.699024"
             target="_blank"
             ><span>Slovakia</span></a
-          >, i am still learning about Front End and Back End Developing. But i
-          was programming before in Unity and C# and i made few games which
+          >, I am still learning about Front End and Back End Developing. But I
+          was programming before in Unity and C# and I made few games which
           wasnt finished because my stupid head. I hope you know something
           little about me now, lets check
           <a class="links-in" href="#my-work">My Work</a> and
@@ -92,7 +94,7 @@
     <!-- My Work -->
 
     <section id="my-work">
-      <div class="mywork-content-m">
+      <div class="mywork-content-m" data-aos="flip-left">
         <h1>My Work</h1>
         <div class="item-m">
           <h1>
@@ -104,7 +106,7 @@
             >
           </h1>
           <p>
-            Badoog was my first site where i use bootstrap and learn more about
+            Badoog was my first site where I use bootstrap and learn more about
             almost everything. Inspired by Badoo
           </p>
         </div>
@@ -160,11 +162,14 @@
 
     <section id="footer">
       <div class="footer-content">
-        <p>
-          My personal Website, everything here is made by me :) <br />
-          &copf; All rights reserved ?
-        </p>
+        <p>My personal Website (STILL WORKING ON, NOT COMPLETE)</p>
       </div>
     </section>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

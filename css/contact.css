@@ -1,0 +1,19 @@
+body { 
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.content {
+    padding: 15% 5%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 { 
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
