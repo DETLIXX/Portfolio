@@ -222,6 +222,7 @@ a {
 
 .header-links { 
     position: fixed;
+    z-index: 1;
     right: 2%;
     background-color: rgba(0, 0, 0, 0.9);
 }
@@ -296,15 +297,27 @@ a {
 .item { 
     margin: 3% 0;
     border-right: 1px solid white;
+    background-color: rgb(7, 7, 7);
+}
+
+.item-text{
+    margin-top: 3%;
 }
 
 
-.item h1 { 
+.item a { 
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
     text-align: left;
     margin-bottom: 2%;
     font-size: 40px;
+    color: rgb(176, 250, 255);
+}
+
+.item a:hover { 
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
 }
 
 .item p { 
