@@ -1,13 +1,6 @@
 @media (max-width:700px) 
 { 
 
-    /* .burger { 
-        position:absolute;
-        right: 1%;
-        top: 1%;
-        width: 50px;
-        height: 50px;
-    } */
 
     #contact-me { 
         display: none;
@@ -18,8 +11,7 @@
     }
     .header-links { 
         margin: auto;
-        left: 0;
-        right: 0;
+
         width: 100%;
     }
 
@@ -47,18 +39,13 @@
 
     /* My Work Mobile */
 
-    .mywork-content { 
+    /* .mywork-content { 
+        display: none;
+    } */
+
+    .item { 
         display: none;
     }
-
-
-    /* .mywork-content-m { 
-    padding: 15% 5%;
-    font-size: 2rem;
-    color: white;
-    display: flex;
-    height: 200px;
-    } */
 
 
     .mywork-content-m { 
@@ -117,6 +104,10 @@
         display: inline;
         width: 100%;
         font-size: 0.8rem;
+    }
+
+    .aboutm-content p { 
+        font-size: 1rem;
     }
 
 }
@@ -298,6 +289,13 @@ a {
     padding: 15% 5%;
     font-size: 2rem;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.item { 
+    margin: 3% 0;
+    border-right: 1px solid white;
 }
 
 
@@ -306,20 +304,21 @@ a {
     font-weight: 400;
     text-align: left;
     margin-bottom: 2%;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .item p { 
     margin-top: 1rem;
     font-family: 'Source Code Pro', monospace;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 26px;
     text-align: left;
+    width: 90%;
 }
 
 
 .work-img { 
-    width: 700px;
+    width: 600px;
     float: left;
     margin-right: 3%;
     transition: 0.2s;
