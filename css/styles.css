@@ -2,6 +2,7 @@
 { 
 
 
+
     #contact-me { 
         display: none;
     }
@@ -27,21 +28,27 @@
         padding-top: 40%;
     }
 
+
+    
     .aboutme-content { 
-        padding: 0 0;
+        padding: 30% 0;
         padding-bottom: 0;
     }
 
 
     .aboutme-content p { 
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 
     /* My Work Mobile */
 
-    /* .mywork-content { 
+    .mywork-content { 
         display: none;
-    } */
+    }
+
+    .mywork-content h1 { 
+        display: none;
+    }
 
     .item { 
         display: none;
@@ -110,6 +117,22 @@
         font-size: 1rem;
     }
 
+    /* My Skills Mo */
+    
+    #mySkills{
+        display: block; 
+    }
+
+    #mySkills .card-holder { 
+        display: grid;
+        margin-top: 10%;
+
+    }
+
+    #mySkills .card-holder p { 
+        margin-bottom: 10%;
+    }
+
 }
 
 @media (min-width:700px) {
@@ -123,10 +146,6 @@
         color: white;
         text-align: center;
     }
-/* 
-    .hamburger { 
-        display: none;
-    } */
 }
     
 
@@ -294,10 +313,17 @@ a {
     flex-direction: column;
 }
 
+.mywork-content h1 { 
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
 .item { 
     margin: 3% 0;
     border-right: 1px solid white;
     background-color: rgb(7, 7, 7);
+    overflow: hidden;
 }
 
 .item-text{
@@ -331,7 +357,7 @@ a {
 
 
 .work-img { 
-    width: 600px;
+    width: 450px;
     float: left;
     margin-right: 3%;
     transition: 0.2s;
@@ -354,6 +380,78 @@ a {
     font-size: 3rem;
     color: white;
     text-align: center;
+}
+
+
+/* Skills */
+
+#mySkills { 
+    margin: 0;
+    padding: 7% 0;
+}
+
+#mySkills h1 { 
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#mySkills p { 
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.card-holder { 
+    clear: both;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-holder h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+}
+
+.card { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    border: 2px solid white;
+    margin: 5% 2%;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.card:hover { 
+    transform: scale(1.1);
+    background-color: gray;
+}
+
+.card img { 
+    padding: 6% 0;
+}
+
+.card h1 { 
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.card p { 
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 
