@@ -388,7 +388,7 @@ a {
 
 #mySkills { 
     margin: 0;
-    padding: 7% 0;
+    padding: 20% 5% 20% 5%;
 }
 
 #mySkills h1 { 
@@ -458,6 +458,77 @@ a {
 }
 
 
+/* Support Me */
+
+#support-me {
+    padding: 20% 5%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#support-me h1 { 
+    margin-bottom: 10%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 4vw;
+}
+
+.support-item h3 { 
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
+
+.support-container { 
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.support-item { 
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid white;
+    margin: 3% 0;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.s-i {
+    transition: 0.5s;
+}
+
+.s-i:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+
+
+.s-i-background { 
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 
 
 /* Footer */
@@ -469,5 +540,5 @@ a {
 }
 
 .footer-content { 
-    width: 40%;
+    width: 100%;
 }
