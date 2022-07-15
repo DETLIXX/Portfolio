@@ -429,7 +429,7 @@ a {
 #mySkills h1 { 
     color: white;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -545,6 +545,7 @@ a {
 
 .s-i {
     transition: 0.5s;
+    
 }
 
 .s-i:hover {
