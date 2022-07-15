@@ -5,7 +5,7 @@
         overflow-x: hidden;
     }
 
-    .left-side-row, .left-side-row a { 
+    .left-side-collum { 
         visibility: hidden;
     }
 
@@ -165,7 +165,7 @@ body {
     scrollbar-width: none;
 }
 
-.left-side-row { 
+.left-side-collum { 
     display: flex;
     color: white;
     flex-direction: column ;
@@ -176,21 +176,31 @@ body {
     width: 2%;
     position: fixed;
     bottom: 20px;
-    border-left: 1px solid white;
     left: 20px;
+    border-left: 1px solid white;
 }
 
-.left-side-row a { 
+.left-side-collum a { 
     margin-bottom: 50%;
     margin-left: 20%;
     transition: 0.5s;
 }
 
-.left-side-row a:hover { 
+.left-side-collum a:hover { 
     transform: translate(0px, -5px);
     color:#ffb1cd;
     border-bottom: 1px solid #ffb1cd;
     cursor: pointer;
+}
+
+.left-side-collum-text { 
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: white;
+    font-size: 10px;
+    position: fixed;
+    bottom: 23px;
+    left: 5px;
 }
 
 
@@ -578,3 +588,4 @@ a {
 .footer-content { 
     width: 100%;
 }
+
