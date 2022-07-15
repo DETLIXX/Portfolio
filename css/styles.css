@@ -1,8 +1,14 @@
 @media (max-width:700px) 
 { 
+
     body { 
         overflow-x: hidden;
     }
+
+    .left-side-row, .left-side-row a { 
+        visibility: hidden;
+    }
+
     #contact-me { 
         display: none;
     }
@@ -158,6 +164,35 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.left-side-row { 
+    display: flex;
+    color: white;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 2%;
+    position: fixed;
+    bottom: 20px;
+    border-left: 1px solid white;
+    left: 20px;
+}
+
+.left-side-row a { 
+    margin-bottom: 50%;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+
+.left-side-row a:hover { 
+    transform: translate(0px, -5px);
+    color:#ffb1cd;
+    border-bottom: 1px solid #ffb1cd;
+    cursor: pointer;
+}
+
 
 html { 
     scroll-behavior: smooth;
@@ -535,7 +570,7 @@ a {
 
 #footer { 
     padding: 1% 1%;
-    text-align: left;
+    text-align: right;
     color: gray;
 }
 
