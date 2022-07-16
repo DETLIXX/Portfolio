@@ -1,6 +1,10 @@
 @media (max-width:700px) 
 { 
 
+    #Spotify * { 
+        display: none;
+    }
+
     body { 
         overflow-x: hidden;
     }
@@ -574,6 +578,48 @@ a {
     align-items: center;
     background-color: black;
 }
+
+
+/* Style */
+
+#Spotify { 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Spotify h1 { 
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 2%;
+    font-size: 40px;
+    position: relative;
+    top: 0;
+    left: 150px;
+}
+
+.spot-back { 
+    width: 600px;
+    height: 200px;
+    background-color: #1DB954;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+}
+.spotify-content-pc { 
+    height: 180px;
+    width: 500px;
+    border:3px solid white;
+    border-radius: 12px;
+    position: relative;
+    right: 30px;
+}
+
+
 
 
 
