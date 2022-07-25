@@ -432,6 +432,14 @@ a {
     text-align: center;
 }
 
+.projects-content a { 
+    color:rgb(176, 250, 255);
+}
+
+.projects-content a:hover {
+    color: #ffb1cd;
+}
+
 
 /* Skills */
 
