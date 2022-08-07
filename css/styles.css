@@ -1,6 +1,10 @@
 @media (max-width:700px) 
 { 
 
+    * { 
+        overflow-x: hidden;
+    }
+
     #Spotify * { 
         display: none;
     }
@@ -104,7 +108,7 @@
 
 
     .projects-content { 
-        font-size: 1rem;
+        font-size: 2rem;
         color: white;
         text-align: center;
     }
@@ -112,8 +116,8 @@
     .projects-content h1 { 
         font-size: 2rem;
     }
-    .projects-content p { 
-        font-size: 1.5rem;        
+    .projects-content a { 
+        font-size: 1.6rem; 
     }
 
     .footer-content { 
@@ -160,13 +164,15 @@
 }
     
 
-
 body { 
     background-color: black;
     margin: 0;
     overflow-x: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    -webkit-touch-callout: none;
+    user-select: none; 
+    
 }
 
 .left-side-collum { 
