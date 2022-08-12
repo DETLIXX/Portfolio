@@ -331,7 +331,6 @@ a {
 #info { 
     width: 100vw;
     position: relative;
-    z-index: 1;
 }
 
 .info-content  { 
